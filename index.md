@@ -31,15 +31,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+
+- For milestone 2, I completed my code for the robotic arm and it now functions as it should, rotating at the base, moving up and down at the joints, and opening and closing at the claw.
+- Something surprising about the project so far was the code. It was a lot shorter than I expected, but it was still very complex to me toward the start. As each day went on, I started understanding each line of code more and more with help from the internet, reference codes, and my instructor, Josh.
+- A challenge I encountered was the smoothness of the UP/DOWN motion. We determined it was a hardware error, but I improved the smoothness as much as I could be adjusting some values in the code like the delay and angles.
+- For my final milestone, I will have my modification complete as well as the documentation. I will also have to prepare for demo night and have this portfolio fully completed.
 
 # First Milestone
 
@@ -56,7 +55,6 @@ For your second milestone, explain what you've worked on since your previous mil
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 #include "CokoinoArm.h"
