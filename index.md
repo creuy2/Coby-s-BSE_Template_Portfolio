@@ -66,28 +66,28 @@ int xL, yL, xR, yR;
 
 void turnUD() {
   if (abs(xL - 512) > 20) {
-    if (xL < 256) {arm.up(5); return;}
-    if (xL > 768) {arm.down(5); return;}
-    if (xL >= 256 && xL < 480) {arm.up(10); return;)
-    if (xL > 540 && xL <= 768) {arm.down(10); return;}
+    if (xL < 128) {arm.up(5); return;}
+    if (xL > 896) {arm.down(5); return;}
+    if (xL >= 128 && xL < 256) {arm.up(15); return;)
+    if (xL > 768 && xL <= 896) {arm.down(15); return;}
   }
 }
 
 void turnLR() {
   if (abs(yL - 512) > 20) {
-    if (yL < 256) {arm.right(5); return;}
-    if (yL > 768) {arm.left(5); return;}
-    if (yL >= 256 && yL < 480) {arm.right(10); return;}
-    if (yL > 540 && yL <- 768) {arm.left(10); return;}
+    if (yL < 128) {arm.right(5); return;}
+    if (yL > 896) {arm.left(5); return;}
+    if (yL >= 128 && yL < 256) {arm.right(15); return;}
+    if (yL > 768 && yL <- 896) {arm.left(15); return;}
   }
 }
 
 void turnCO() {
   if (abs(xR - 512) > 20) {
-    if (xR < 256) {arm.close(0); return;}
-    if (xR > 768) {arm.open(0); return;}
-    if (xR >= 256 && xR < 480) {arm.close(5); return;}
-    if (xR > 540 && xR <= 768) {arm.open(5); return;}
+    if (xR < 128) {arm.close(0); return;}
+    if (xR > 896) {arm.open(0); return;}
+    if (xR >= 128 && xR < 256) {arm.close(10); return;}
+    if (xR > 768 && xR <= 896) {arm.open(10); return;}
   }
 }
 
@@ -105,6 +105,7 @@ void loop() {
   turnUD():
   turnLR();
   turnCO();
+}
 ```
 
 # Bill of Materials
