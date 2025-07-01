@@ -32,7 +32,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/Sq0_jAAt7Ok/0.jpg)](https://www.youtube.com/watch?v=Sq0_jAAt7Ok)
+
+
 
 
 - For milestone 2, I completed my code for the robotic arm and it now functions as it should, rotating at the base, moving up and down at the joints, and opening and closing at the claw.
