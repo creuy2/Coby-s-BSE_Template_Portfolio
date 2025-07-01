@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Coby L | Sage Creek | Engineering Design | Incoming Junior
+| Coby L | Sage Creek | Engineering Design | Rising Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -22,10 +22,10 @@ You should comment out all portions of your portfolio that you have not complete
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- Since the previous milestone, I constructed an enclosure for my robotic arm to act as a claw machine. It is made using mainly cardboard and hot glue. There is an area filled with candy for the arm to grab and a drop off area with two outcomes, win or lose.
+- Challenges I came across during my time at BlueStamp Engineering was the introduction of C++ in the base project. I overcame the coding challenges by understanding the new language through many hours of testing and researching, improving with each error. I also deepened my understanding of coding as well as the basic circuitry behind many machines including the servos, wiring, pins, etc. 
+- Broader topics I learned through BlueStamp include perseverence and adaptability, which are important when struggling because they allow you to push through and make changes based on problems in your current situation. I faced this when my arm did not work as intended. At first I thought it was a mechanical error, so I tried creating my own claw, but after many tries, I noticed that each claw, no matter the design, had a common error, not being able to stay closed while moving in other motions whether it was U/D or L/R. Using this knowledge, I found that it was not a coding error, but a coding limitation. When there is an object between the claws, it confuses the servo because the angle value is more closed than the actual claw, due to object obstruction. This caused the claw to open and close randomly. I tried many things like ensuring only one motion could move at a time, slowing the motion speed, and more. A solution I found was to adjust the library, rather than my actual code. I limited the close value to a certain amount the prevent confusion and just like that, the claw was able to grab the prize candy.
+- I also improved my documentation skills, which can also apply to life later on. We had to report weekly updates through github, which helped me write and record, while increasing my experience using Github. Documentation is useful because it forces you to track your progress, which I found very helpful during BlueStamp because it improved my pacing, allowing me to stay on track. I even finished my project and the modification a few days early, allowing me to spend time on the rest of the documentation required. 
 
 
 
@@ -54,7 +54,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - For milestone 2, I plan on having a working, running code that will allow me to control my robot using the joysticks.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![Headstone Image](schematic.png)
 
 # Code
 
