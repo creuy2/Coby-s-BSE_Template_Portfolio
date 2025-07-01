@@ -1,11 +1,7 @@
 # Robotic Arm/Claw Machine
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My robotic arm is powered and coded through Arduino on my PC, which connects to the wiring and the shield, the Arduino NANO. The joysticks send position values which correspond with the angles of the 4 servos, allowing different ranges of motions including Up/Down, Left/Right, and even Open/Close. For my modification, I decided to turn my robotic arm into a claw machine that can pick up candy. There are two outcomes, win, where you receive the candy, and lose, where the candy is returned to the machine.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -109,19 +105,10 @@ void loop() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
+| Smart Robotic Arm for Arduino | This was the robotic arm kit, which included the parts needed for my base project | $49 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1/ref=sr_1_7?crid=3KMA5P3EMOJEM&dib=eyJ2IjoiMSJ9.Q5QsHlSHqmi4T964OKjW0uLlWH6T1nUH5AzFqYtNPdtXngP0cylLgs3z2RvLdeFtrO1BPkFw4ae1b1NkIjkM2xJOpkMTeJcX6VjbSTti-vk4kjXPwByiappO0IB5zWgtFc_gZfpIVzZmv4BtkrnJIZ5Vw9gkkkPCbyq10hstEmVmhuCQQ0RPERqJ5MGN3jo9fhg_O8al6ju4VeMnmJhvDiJvbfGlyK-maFSTTaly1udZ6hCy1kqZz2SC6bJFGMa6-KsCDC1Fv2fstHtjp7JVVmwNS0PaDAMBXZD5Cprsyn0.RvakShsPwLeOHULEUGkQheLxq2TEkA3hk0HRsgwizFw&dib_tag=se&keywords=smart+robotic+arm+for+arduino&qid=1751400355&sprefix=smart+robotic+arm+for+arduino%2Caps%2C143&sr=8-7"> Link </a> |
+| Extension Cord | I ordered an extension cord so my project did not need to be directly next to my PC | $7 | <a href="https://www.amazon.com/dp/B07RQRMGKB?ref=ppx_yo2ov_dt_b_fed_asin_title"> Link </a> |
+| Cardboard | This was the main material used to build an enclosure for my modification | $0 | N/A |
