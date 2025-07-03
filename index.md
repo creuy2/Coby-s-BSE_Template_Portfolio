@@ -48,7 +48,7 @@ My robotic arm is powered and coded through Arduino on my PC, which connects to 
 - For milestone 2, I plan on having a working, running code that will allow me to control my robot using the joysticks.
 
 # Schematics 
-![Headstone Image](schematicscr)
+![Headstone Image](schematicreal.png)
 
 # Code
 
