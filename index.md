@@ -9,7 +9,7 @@ My robotic arm is powered and coded through Arduino on my PC, which connects to 
 
 
 
-![Headstone Image](headshot.jpg)
+![Headstone Image](headshot.png)
   
 # Final Milestone
 
