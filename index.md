@@ -7,17 +7,15 @@ My robotic arm is powered and coded through Arduino on my PC, which connects to 
 |:--:|:--:|:--:|:--:|
 | Coby L | Sage Creek | Engineering Design | Rising Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+
 
 ![Headstone Image](logo.svg)
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/RG_JKt5yhwo/hqdefault.jpg)](https://www.youtube.com/watch?v=RG_JKt5yhwo)
 
-For your final milestone, explain the outcome of your project. Key details to include are:
 - Since the previous milestone, I constructed an enclosure for my robotic arm to act as a claw machine. It is made using mainly cardboard and hot glue. There is an area filled with candy for the arm to grab and a drop off area with two outcomes, win or lose.
 - Challenges I came across during my time at BlueStamp Engineering was the introduction of C++ in the base project. I overcame the coding challenges by understanding the new language through many hours of testing and researching, improving with each error. I also deepened my understanding of coding as well as the basic circuitry behind many machines including the servos, wiring, pins, etc. 
 - Broader topics I learned through BlueStamp include perseverence and adaptability, which are important when struggling because they allow you to push through and make changes based on problems in your current situation. I faced this when my arm did not work as intended. At first I thought it was a mechanical error, so I tried creating my own claw, but after many tries, I noticed that each claw, no matter the design, had a common error, not being able to stay closed while moving in other motions whether it was U/D or L/R. Using this knowledge, I found that it was not a coding error, but a coding limitation. When there is an object between the claws, it confuses the servo because the angle value is more closed than the actual claw, due to object obstruction. This caused the claw to open and close randomly. I tried many things like ensuring only one motion could move at a time, slowing the motion speed, and more. A solution I found was to adjust the library, rather than my actual code. I limited the close value to a certain amount the prevent confusion and just like that, the claw was able to grab the prize candy.
@@ -33,7 +31,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 
-- For milestone 2, I completed my code for the robotic arm and it now functions as it should, rotating at the base, moving up and down at the joints, and opening and closing at the claw.
+- For milestone 2, I completed my code for the robotic arm and it now functions as it should, rotating at the base, moving up and down at the joints, and opening and closing at the claw. I imported libraries, which contain codes and commands specifically tailored to allow the servos to function. 
 - Something surprising about the project so far was the code. It was a lot shorter than I expected, but it was still very complex to me toward the start. As each day went on, I started understanding each line of code more and more with help from the internet, reference codes, and my instructor, Josh.
 - A challenge I encountered was the smoothness of the UP/DOWN motion. We determined it was a hardware error, but I improved the smoothness as much as I could be adjusting some values in the code like the delay and angles.
 - For my final milestone, I will have my modification complete as well as the documentation. I will also have to prepare for demo night and have this portfolio fully completed.
@@ -44,13 +42,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 [![Watch on YouTube](https://img.youtube.com/vi/QUYMb4puTQo/0.jpg)](https://www.youtube.com/watch?v=QUYMb4puTQo)
 
 
-- Key components of my robot include the servos, joysticks, and shield/nano. The servo allows motion at each joint, the joysticks send signals to control the servos, and the shield pairs the Arduino code from my PC to the robot.
-- For my first milestone, I completed the construction aspect of the robot, as well as the testing of the servos, joysticks, and shield/nano.
+- Key components of my robot include the servos, joysticks, and shield/nano. The servo controls the motion at each joint by increasing or decreasing by a certain angle amount, which depends on the value received from the joysticks. The joysticks send variable inputs to the Arduino code on my PC which correspond with the joystick's x and y positions. The nano allows the robot to connect to my PC in the first place, and the shield is an extension which allows more connections to the nano.
+- For my first milestone, I completed the construction aspect of the robot, as well as the testing of the servos, joysticks, and shield/nano. I ensured everything was up to standard and continued with my project.
 - A challenge I faced was that the designated shield was not compatible with the servos because it was too weak. I had to improvise and use an alternative shield, which could not attach to the robot as shown in the instructions. I altered the original build to successfully incorporate the new shield, allowing the servos to function.
 - For milestone 2, I plan on having a working, running code that will allow me to control my robot using the joysticks.
 
 # Schematics 
-![Headstone Image](schematic.png)
+![Headstone Image](schematicscr)
 
 # Code
 
